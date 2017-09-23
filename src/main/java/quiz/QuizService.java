@@ -16,9 +16,10 @@ public class QuizService {
 
     @GET
     @Produces(MediaType.APPLICATION_JSON)
-    public Collection<Quiz> getQuizes() {
+    public Collection<Quiz> getQuiz() {
         return quizHashMap.values();
     }
+
     @GET
     @Path("/{quizId}")
     @Produces(MediaType.APPLICATION_JSON)
@@ -29,14 +30,14 @@ public class QuizService {
     @POST
     @Consumes(MediaType.APPLICATION_JSON)
     public void addQuiz(Quiz quiz){
-        quizHashMap.putIfAbsent(quiz.getId(),quiz);
+        quizHashMap.put(quiz.getQuizId(),quiz);
     }
 
     @DELETE
     @Path("/{quizId}")
     @Consumes(MediaType.APPLICATION_JSON)
     public void deleteQuiz(Quiz quiz){
-        quizHashMap.remove(quiz.getId(),quiz);
+        quizHashMap.remove(quiz.getQuizId(),quiz);
     }
 
 }

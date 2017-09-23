@@ -4,12 +4,15 @@
     width: 150px;
     position: absolute;
     margin: auto;
-
 }
 .navibar{
-    background-color: #8a6d3b;
+    background-color: #8c8c8c;
 }
 .jumbotron {
+    margin: 0px;
+}
+.navbar {
+    margin: 0px;
 }
 body {
     width: 70%;

@@ -1,38 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="b5522f04-c7c3-47c1-bd60-4b09b4e2f7a2" name="Default" comment="Lots of changes!">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/fonts/glyphicons-halflings-regular.eot" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/fonts/glyphicons-halflings-regular.ttf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/fonts/glyphicons-halflings-regular.woff" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/fonts/glyphicons-halflings-regular.woff2" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/quiz/QuizService.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/quiz/Sporsmal.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/quiz/SvarAlternativ.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/addquiz.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/css/bootstrap-theme.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/css/bootstrap-theme.css.map" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/css/bootstrap-theme.min.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/css/bootstrap-theme.min.css.map" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/css/bootstrap.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/css/bootstrap.css.map" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/css/bootstrap.min.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/css/bootstrap.min.css.map" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/fonts/glyphicons-halflings-regular.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/index.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/js/bootstrap.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/js/bootstrap.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/js/npm.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/js/quiz.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/scoreboard.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/artifacts/sysutvQuiz_war_exploded.xml" afterPath="$PROJECT_DIR$/.idea/artifacts/sysutvQuiz_war_exploded.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/compiler.xml" afterPath="$PROJECT_DIR$/.idea/compiler.xml" />
+    <list default="true" id="b5522f04-c7c3-47c1-bd60-4b09b4e2f7a2" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/quiz/Score.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/quiz/Scoreboard.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/quiz/ScoreboardService.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/js/jquery-3.2.1.min.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/webapp/index.css" afterPath="$PROJECT_DIR$/src/main/webapp/css/index.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pom.xml" afterPath="$PROJECT_DIR$/pom.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/quiz/Quiz.java" afterPath="$PROJECT_DIR$/src/main/java/quiz/Quiz.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/quiz/QuizService.java" afterPath="$PROJECT_DIR$/src/main/java/quiz/QuizService.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/quiz/Sporsmal.java" afterPath="$PROJECT_DIR$/src/main/java/quiz/Sporsmal.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/quiz/SvarAlternativ.java" afterPath="$PROJECT_DIR$/src/main/java/quiz/SvarAlternativ.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/addquiz.html" afterPath="$PROJECT_DIR$/src/main/webapp/addquiz.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/index.html" afterPath="$PROJECT_DIR$/src/main/webapp/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sysutvQuiz.iml" afterPath="$PROJECT_DIR$/sysutvQuiz.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/js/quiz.js" afterPath="$PROJECT_DIR$/src/main/webapp/js/quiz.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/scoreboard.html" afterPath="$PROJECT_DIR$/src/main/webapp/scoreboard.html" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -45,33 +28,25 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/pom.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1245">
-              <caret line="83" column="20" lean-forward="false" selection-start-line="83" selection-start-column="20" selection-end-line="83" selection-end-column="20" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="Quiz.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/quiz/Quiz.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="120">
-              <caret line="8" column="30" lean-forward="false" selection-start-line="8" selection-start-column="30" selection-end-line="8" selection-end-column="30" />
+            <state relative-caret-position="297">
+              <caret line="29" column="0" lean-forward="true" selection-start-line="29" selection-start-column="0" selection-end-line="29" selection-end-column="0" />
               <folding>
                 <element signature="imports" expanded="true" />
+                <marker date="1506205956000" expanded="false" signature="664:675" ph=" { " />
+                <marker date="1506205956000" expanded="false" signature="700:706" ph=" }" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="QuizService.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="QuizService.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/quiz/QuizService.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="270">
-              <caret line="20" column="5" lean-forward="true" selection-start-line="20" selection-start-column="5" selection-end-line="20" selection-end-column="5" />
+            <state relative-caret-position="286">
+              <caret line="22" column="4" lean-forward="false" selection-start-line="22" selection-start-column="4" selection-end-line="40" selection-end-column="5" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -79,11 +54,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="quiz.js" pinned="false" current-in-tab="false">
+      <file leaf-file-name="quiz.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/webapp/js/quiz.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="240">
-              <caret line="16" column="26" lean-forward="false" selection-start-line="16" selection-start-column="26" selection-end-line="16" selection-end-column="26" />
+            <state relative-caret-position="1215">
+              <caret line="81" column="20" lean-forward="false" selection-start-line="81" selection-start-column="20" selection-end-line="81" selection-end-column="20" />
               <folding />
             </state>
           </provider>
@@ -92,8 +67,8 @@
       <file leaf-file-name="Sporsmal.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/quiz/Sporsmal.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="210">
-              <caret line="20" column="59" lean-forward="false" selection-start-line="20" selection-start-column="59" selection-end-line="20" selection-end-column="59" />
+            <state relative-caret-position="90">
+              <caret line="6" column="27" lean-forward="false" selection-start-line="6" selection-start-column="27" selection-end-line="6" selection-end-column="27" />
               <folding />
             </state>
           </provider>
@@ -102,31 +77,18 @@
       <file leaf-file-name="SvarAlternativ.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/quiz/SvarAlternativ.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="195">
-              <caret line="17" column="45" lean-forward="false" selection-start-line="17" selection-start-column="45" selection-end-line="17" selection-end-column="45" />
-              <folding>
-                <element signature="e#404#405#0" expanded="true" />
-                <element signature="e#456#457#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="index.css" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/webapp/index.css">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="330">
-              <caret line="22" column="17" lean-forward="true" selection-start-line="22" selection-start-column="17" selection-end-line="22" selection-end-column="17" />
+            <state relative-caret-position="135">
+              <caret line="9" column="0" lean-forward="false" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/webapp/index.html">
+      <file leaf-file-name="index.css" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/webapp/css/index.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="420">
-              <caret line="28" column="29" lean-forward="false" selection-start-line="28" selection-start-column="29" selection-end-line="28" selection-end-column="29" />
+            <state relative-caret-position="390">
+              <caret line="26" column="1" lean-forward="false" selection-start-line="26" selection-start-column="1" selection-end-line="26" selection-end-column="1" />
               <folding />
             </state>
           </provider>
@@ -135,19 +97,64 @@
       <file leaf-file-name="addquiz.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/webapp/addquiz.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="716">
-              <caret line="53" column="6" lean-forward="false" selection-start-line="53" selection-start-column="6" selection-end-line="53" selection-end-column="6" />
-              <folding />
+            <state relative-caret-position="226">
+              <caret line="42" column="38" lean-forward="false" selection-start-line="42" selection-start-column="38" selection-end-line="42" selection-end-column="38" />
+              <folding>
+                <element signature="n#style#0;n#div#1;n#form#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#2;n#form#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="scoreboard.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/webapp/scoreboard.html">
+      <file leaf-file-name="Scoreboard.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/quiz/Scoreboard.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="390">
-              <caret line="26" column="25" lean-forward="false" selection-start-line="26" selection-start-column="25" selection-end-line="26" selection-end-column="25" />
-              <folding />
+            <state relative-caret-position="210">
+              <caret line="14" column="23" lean-forward="false" selection-start-line="14" selection-start-column="23" selection-end-line="14" selection-end-column="23" />
+              <folding>
+                <element signature="e#115#116#0" expanded="true" />
+                <element signature="e#141#142#0" expanded="true" />
+                <element signature="e#176#177#0" expanded="true" />
+                <element signature="e#206#207#0" expanded="true" />
+                <element signature="e#237#238#0" expanded="true" />
+                <element signature="e#265#266#0" expanded="true" />
+                <element signature="e#306#307#0" expanded="true" />
+                <element signature="e#340#341#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ScoreboardService.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/quiz/ScoreboardService.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="207">
+              <caret line="24" column="5" lean-forward="true" selection-start-line="24" selection-start-column="5" selection-end-line="24" selection-end-column="5" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#735#736#0" expanded="true" />
+                <element signature="e#800#801#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Score.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/quiz/Score.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="300">
+              <caret line="20" column="8" lean-forward="false" selection-start-line="20" selection-start-column="8" selection-end-line="20" selection-end-column="27" />
+              <folding>
+                <element signature="e#114#115#0" expanded="true" />
+                <element signature="e#141#142#0" expanded="true" />
+                <element signature="e#181#182#0" expanded="true" />
+                <element signature="e#213#214#0" expanded="true" />
+                <element signature="e#242#243#0" expanded="true" />
+                <element signature="e#270#271#0" expanded="true" />
+                <element signature="e#309#310#0" expanded="true" />
+                <element signature="e#343#344#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -159,8 +166,8 @@
       <list>
         <option value="CSS File" />
         <option value="HTML File" />
-        <option value="Class" />
         <option value="JavaScript File" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -172,6 +179,9 @@
       <projects_view />
     </option>
   </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="dummy://restClient/response156.json" root0="SKIP_INSPECTION" />
+  </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
@@ -181,15 +191,19 @@
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" />
         <option value="$PROJECT_DIR$/src/main/webapp/tile.txt" />
         <option value="$PROJECT_DIR$/pom.xml" />
-        <option value="$PROJECT_DIR$/src/main/java/quiz/Sporsmal.java" />
+        <option value="$PROJECT_DIR$/src/main/webapp/scoreboard.html" />
+        <option value="$PROJECT_DIR$/src/main/webapp/index.css" />
+        <option value="$PROJECT_DIR$/src/main/webapp/index.html" />
         <option value="$PROJECT_DIR$/src/main/java/quiz/SvarAlternativ.java" />
         <option value="$PROJECT_DIR$/src/main/java/quiz/QuizService.java" />
-        <option value="$PROJECT_DIR$/src/main/webapp/js/quiz.js" />
+        <option value="$PROJECT_DIR$/src/main/java/quiz/Score.java" />
+        <option value="$PROJECT_DIR$/src/main/java/quiz/Scoreboard.java" />
+        <option value="$PROJECT_DIR$/src/main/java/quiz/Sporsmal.java" />
+        <option value="$PROJECT_DIR$/src/main/webapp/css/index.css" />
         <option value="$PROJECT_DIR$/src/main/java/quiz/Quiz.java" />
-        <option value="$PROJECT_DIR$/src/main/webapp/index.html" />
-        <option value="$PROJECT_DIR$/src/main/webapp/scoreboard.html" />
+        <option value="$PROJECT_DIR$/src/main/java/quiz/ScoreboardService.java" />
         <option value="$PROJECT_DIR$/src/main/webapp/addquiz.html" />
-        <option value="$PROJECT_DIR$/src/main/webapp/index.css" />
+        <option value="$PROJECT_DIR$/src/main/webapp/js/quiz.js" />
       </list>
     </option>
   </component>
@@ -207,8 +221,30 @@
   </component>
   <component name="ProjectFrameBounds">
     <option name="y" value="23" />
-    <option name="width" value="1680" />
-    <option name="height" value="970" />
+    <option name="width" value="1539" />
+    <option name="height" value="893" />
+  </component>
+  <component name="ProjectInspectionProfilesVisibleTreeState">
+    <entry key="Project Default">
+      <profile-state>
+        <expanded-state>
+          <State>
+            <id />
+          </State>
+          <State>
+            <id>GeneralJavaScript</id>
+          </State>
+          <State>
+            <id>JavaScript</id>
+          </State>
+        </expanded-state>
+        <selected-state>
+          <State>
+            <id>JSUnresolvedFunction</id>
+          </State>
+        </selected-state>
+      </profile-state>
+    </entry>
   </component>
   <component name="ProjectView">
     <navigator currentView="ProjectPane" proportions="" version="1">
@@ -225,6 +261,9 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
+      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -271,25 +310,13 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="webapp" type="462c0819:PsiDirectoryNode" />
-              <item name="js" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="sysutvQuiz" type="b2602c69:ProjectViewProjectNode" />
-              <item name="sysutvQuiz" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="webapp" type="462c0819:PsiDirectoryNode" />
-              <item name="js" type="462c0819:PsiDirectoryNode" />
-              <item name="bootstrap.js" type="620a8d5e:NestingTreeNode" />
+              <item name="css" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scratches" />
       <pane id="AndroidView" />
-      <pane id="PackagesPane" />
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -304,12 +331,1636 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/main/webapp/css" />
       <recent name="$PROJECT_DIR$/.." />
     </key>
   </component>
   <component name="RestClientSettings">
     <option name="REQUEST_HISTORY">
       <list>
+        <RestClientRequest>
+          <option name="httpMethod" value="GET" />
+          <option name="urlBase" value="http://localhost:8080" />
+          <option name="urlPath" value="sysutvQuiz/rest/quiz/" />
+          <option name="headers">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="Accept" />
+                <option name="value" value="*/*" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="Cache-Control" />
+                <option name="value" value="no-cache" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="parametersEnabled" value="true" />
+          <option name="textToSend" value="" />
+          <option name="filesToSend" value="" />
+        </RestClientRequest>
+        <RestClientRequest>
+          <option name="httpMethod" value="GET" />
+          <option name="urlBase" value="http://localhost:8080" />
+          <option name="urlPath" value="sysutvQuiz/rest/quiz/" />
+          <option name="headers">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="Accept" />
+                <option name="value" value="*/*" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="Cache-Control" />
+                <option name="value" value="no-cache" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="parametersEnabled" value="true" />
+          <option name="textToSend" value="" />
+          <option name="filesToSend" value="" />
+        </RestClientRequest>
+        <RestClientRequest>
+          <option name="httpMethod" value="GET" />
+          <option name="urlBase" value="http://localhost:8080" />
+          <option name="urlPath" value="sysutvQuiz/rest/quiz/" />
+          <option name="headers">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="Accept" />
+                <option name="value" value="*/*" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="Cache-Control" />
+                <option name="value" value="no-cache" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="Content-Type" />
+                <option name="value" value="&quot;json&quot;" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="parameters">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="&quot;quizId&quot;" />
+                <option name="value" value="1" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="&quot;navn&quot;" />
+                <option name="value" value="&quot;Kristian&quot;" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="parametersEnabled" value="true" />
+          <option name="textToSend" value="" />
+          <option name="filesToSend" value="" />
+        </RestClientRequest>
+        <RestClientRequest>
+          <option name="httpMethod" value="POST" />
+          <option name="urlBase" value="http://localhost:8080" />
+          <option name="urlPath" value="sysutvQuiz/rest/quiz/" />
+          <option name="headers">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="Accept" />
+                <option name="value" value="*/*" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="Cache-Control" />
+                <option name="value" value="no-cache" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="Content-Type" />
+                <option name="value" value="&quot;json&quot;" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="parameters">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="&quot;quizId&quot;" />
+                <option name="value" value="1" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="&quot;navn&quot;" />
+                <option name="value" value="&quot;Kristian&quot;" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="parametersEnabled" value="true" />
+          <option name="textToSend" value="{ &quot;quizId&quot;: 12, &quot;navn&quot;: &quot;Hei&quot;   }" />
+          <option name="filesToSend" value="" />
+        </RestClientRequest>
+        <RestClientRequest>
+          <option name="httpMethod" value="POST" />
+          <option name="urlBase" value="http://localhost:8080" />
+          <option name="urlPath" value="sysutvQuiz/rest/quiz/" />
+          <option name="headers">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="Accept" />
+                <option name="value" value="*/*" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="Cache-Control" />
+                <option name="value" value="no-cache" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="parameters">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="&quot;quizId&quot;" />
+                <option name="value" value="1" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="&quot;navn&quot;" />
+                <option name="value" value="&quot;Kristian&quot;" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="parametersEnabled" value="true" />
+          <option name="textToSend" value="{ &quot;quizId&quot;: 12, &quot;navn&quot;: &quot;Hei&quot;   }" />
+          <option name="filesToSend" value="" />
+        </RestClientRequest>
+        <RestClientRequest>
+          <option name="httpMethod" value="POST" />
+          <option name="urlBase" value="http://localhost:8080" />
+          <option name="urlPath" value="sysutvQuiz/rest/quiz/" />
+          <option name="headers">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="Accept" />
+                <option name="value" value="*/*" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="Cache-Control" />
+                <option name="value" value="no-cache" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="parameters">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="&quot;quizId&quot;" />
+                <option name="value" value="1" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="&quot;navn&quot;" />
+                <option name="value" value="&quot;Kristian&quot;" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="&quot;sporsmal&quot;" />
+                <option name="value" value="null" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="&quot;opprettet&quot;" />
+                <option name="value" value="null" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="&quot;start&quot;" />
+                <option name="value" value="null" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="&quot;avsluttes&quot;" />
+                <option name="value" value="null" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="haveTextToSend" value="true" />
+          <option name="textToSend" value="{ &quot;quizId&quot;: 12, &quot;navn&quot;: &quot;Hei&quot;   }" />
+          <option name="filesToSend" value="" />
+        </RestClientRequest>
+        <RestClientRequest>
+          <option name="httpMethod" value="POST" />
+          <option name="urlBase" value="http://localhost:8080" />
+          <option name="urlPath" value="sysutvQuiz/rest/quiz/" />
+          <option name="headers">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="Accept" />
+                <option name="value" value="*/*" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="Cache-Control" />
+                <option name="value" value="no-cache" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="parameters">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="&quot;quizId&quot;" />
+                <option name="value" value="1" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="&quot;navn&quot;" />
+                <option name="value" value="&quot;Kristian&quot;" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="&quot;sporsmal&quot;" />
+                <option name="value" value="null" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="&quot;opprettet&quot;" />
+                <option name="value" value="null" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="&quot;start&quot;" />
+                <option name="value" value="null" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="&quot;avsluttes&quot;" />
+                <option name="value" value="null" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="haveTextToSend" value="true" />
+          <option name="textToSend" value="{ quizId: 12, navn: &quot;Hei&quot;   }" />
+          <option name="filesToSend" value="" />
+        </RestClientRequest>
+        <RestClientRequest>
+          <option name="httpMethod" value="PUT" />
+          <option name="urlBase" value="http://localhost:8080" />
+          <option name="urlPath" value="sysutvQuiz/rest/quiz/" />
+          <option name="headers">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="Accept" />
+                <option name="value" value="*/*" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="Cache-Control" />
+                <option name="value" value="no-cache" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="parameters">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="&quot;quizId&quot;" />
+                <option name="value" value="1" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="&quot;navn&quot;" />
+                <option name="value" value="&quot;Kristian&quot;" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="&quot;sporsmal&quot;" />
+                <option name="value" value="null" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="&quot;opprettet&quot;" />
+                <option name="value" value="null" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="&quot;start&quot;" />
+                <option name="value" value="null" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="&quot;avsluttes&quot;" />
+                <option name="value" value="null" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="haveTextToSend" value="true" />
+          <option name="textToSend" value="{ quizId: 12, navn: &quot;Hei&quot;   }" />
+          <option name="filesToSend" value="" />
+        </RestClientRequest>
+        <RestClientRequest>
+          <option name="httpMethod" value="POST" />
+          <option name="urlBase" value="http://localhost:8080" />
+          <option name="urlPath" value="sysutvQuiz/rest/quiz/" />
+          <option name="headers">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="Accept" />
+                <option name="value" value="*/*" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="Cache-Control" />
+                <option name="value" value="no-cache" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="parameters">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="&quot;quizId&quot;" />
+                <option name="value" value="1" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="&quot;navn&quot;" />
+                <option name="value" value="&quot;Kristian&quot;" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="&quot;sporsmal&quot;" />
+                <option name="value" value="null" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="&quot;opprettet&quot;" />
+                <option name="value" value="null" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="&quot;start&quot;" />
+                <option name="value" value="null" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="&quot;avsluttes&quot;" />
+                <option name="value" value="null" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="haveTextToSend" value="true" />
+          <option name="textToSend" value="{ quizId: 12, navn: &quot;Hei&quot;   }" />
+          <option name="filesToSend" value="" />
+        </RestClientRequest>
+        <RestClientRequest>
+          <option name="httpMethod" value="POST" />
+          <option name="urlBase" value="http://localhost:8080" />
+          <option name="urlPath" value="sysutvQuiz/rest/quiz/" />
+          <option name="headers">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="Accept" />
+                <option name="value" value="*/*" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="Cache-Control" />
+                <option name="value" value="no-cache" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="parameters">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="&quot;quizId&quot;" />
+                <option name="value" value="1" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="&quot;navn&quot;" />
+                <option name="value" value="&quot;Kristian&quot;" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="&quot;sporsmal&quot;" />
+                <option name="value" value="null" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="&quot;opprettet&quot;" />
+                <option name="value" value="null" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="&quot;start&quot;" />
+                <option name="value" value="null" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="&quot;avsluttes&quot;" />
+                <option name="value" value="null" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="haveTextToSend" value="true" />
+          <option name="textToSend" value="data: { quizId:1, navn: &quot;Kristian&quot; }   " />
+          <option name="filesToSend" value="" />
+        </RestClientRequest>
+        <RestClientRequest>
+          <option name="httpMethod" value="POST" />
+          <option name="urlBase" value="http://localhost:8080" />
+          <option name="urlPath" value="sysutvQuiz/rest/quiz/" />
+          <option name="headers">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="Accept" />
+                <option name="value" value="*/*" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="Cache-Control" />
+                <option name="value" value="no-cache" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="parameters">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="&quot;quizId&quot;" />
+                <option name="value" value="1" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="&quot;navn&quot;" />
+                <option name="value" value="&quot;Kristian&quot;" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="&quot;sporsmal&quot;" />
+                <option name="value" value="null" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="&quot;opprettet&quot;" />
+                <option name="value" value="null" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="&quot;start&quot;" />
+                <option name="value" value="null" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="&quot;avsluttes&quot;" />
+                <option name="value" value="null" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="haveTextToSend" value="true" />
+          <option name="textToSend" value="&quot;quizId&quot;: 1, &quot;navn&quot;:&quot;Kristian&quot;" />
+          <option name="filesToSend" value="" />
+        </RestClientRequest>
+        <RestClientRequest>
+          <option name="httpMethod" value="POST" />
+          <option name="urlBase" value="http://localhost:8080" />
+          <option name="urlPath" value="sysutvQuiz/rest/quiz/" />
+          <option name="headers">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="Accept" />
+                <option name="value" value="*/*" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="Cache-Control" />
+                <option name="value" value="no-cache" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="parameters">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="&quot;quizId&quot;" />
+                <option name="value" value="1" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="&quot;navn&quot;" />
+                <option name="value" value="&quot;Kristian&quot;" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="&quot;sporsmal&quot;" />
+                <option name="value" value="null" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="&quot;opprettet&quot;" />
+                <option name="value" value="null" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="&quot;start&quot;" />
+                <option name="value" value="null" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="&quot;avsluttes&quot;" />
+                <option name="value" value="null" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="haveTextToSend" value="true" />
+          <option name="textToSend" value="quizId: 1, navn:&quot;KRistian&quot;" />
+          <option name="filesToSend" value="" />
+        </RestClientRequest>
+        <RestClientRequest>
+          <option name="httpMethod" value="POST" />
+          <option name="urlBase" value="http://localhost:8080" />
+          <option name="urlPath" value="sysutvQuiz/rest/quiz/" />
+          <option name="headers">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="Accept" />
+                <option name="value" value="*/*" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="Cache-Control" />
+                <option name="value" value="no-cache" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="parameters">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="&quot;quizId&quot;" />
+                <option name="value" value="1" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="&quot;navn&quot;" />
+                <option name="value" value="&quot;Kristian&quot;" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="&quot;sporsmal&quot;" />
+                <option name="value" value="null" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="&quot;opprettet&quot;" />
+                <option name="value" value="null" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="&quot;start&quot;" />
+                <option name="value" value="null" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="&quot;avsluttes&quot;" />
+                <option name="value" value="null" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="haveTextToSend" value="true" />
+          <option name="textToSend" value="{&quot;quizId&quot;: 1, &quot;navn&quot;:&quot;KRistian&quot; }" />
+          <option name="filesToSend" value="" />
+        </RestClientRequest>
+        <RestClientRequest>
+          <option name="httpMethod" value="POST" />
+          <option name="urlBase" value="http://localhost:8080" />
+          <option name="urlPath" value="sysutvQuiz/rest/quiz/" />
+          <option name="headers">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="Accept" />
+                <option name="value" value="*/*" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="Cache-Control" />
+                <option name="value" value="no-cache" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="parameters">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="&quot;quizId&quot;" />
+                <option name="value" value="1" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="&quot;navn&quot;" />
+                <option name="value" value="&quot;Kristian&quot;" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="&quot;sporsmal&quot;" />
+                <option name="value" value="null" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="&quot;opprettet&quot;" />
+                <option name="value" value="null" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="&quot;start&quot;" />
+                <option name="value" value="null" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="&quot;avsluttes&quot;" />
+                <option name="value" value="null" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="haveTextToSend" value="true" />
+          <option name="textToSend" value="{&quot;quizId&quot;: 1, &quot;navn&quot;:&quot;KRistian}" />
+          <option name="filesToSend" value="" />
+        </RestClientRequest>
+        <RestClientRequest>
+          <option name="httpMethod" value="POST" />
+          <option name="urlBase" value="http://localhost:8080" />
+          <option name="urlPath" value="sysutvQuiz/rest/quiz/" />
+          <option name="headers">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="Accept" />
+                <option name="value" value="*/*" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="Cache-Control" />
+                <option name="value" value="no-cache" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="parameters">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="&quot;quizId&quot;" />
+                <option name="value" value="1" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="&quot;navn&quot;" />
+                <option name="value" value="&quot;Kristian&quot;" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="&quot;sporsmal&quot;" />
+                <option name="value" value="null" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="&quot;opprettet&quot;" />
+                <option name="value" value="null" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="&quot;start&quot;" />
+                <option name="value" value="null" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="&quot;avsluttes&quot;" />
+                <option name="value" value="null" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="haveTextToSend" value="true" />
+          <option name="textToSend" value="&quot;quizId&quot;: 1, &quot;navn&quot;:&quot;KRistian" />
+          <option name="filesToSend" value="" />
+        </RestClientRequest>
+        <RestClientRequest>
+          <option name="httpMethod" value="POST" />
+          <option name="urlBase" value="http://localhost:8080" />
+          <option name="urlPath" value="sysutvQuiz/rest/quiz/" />
+          <option name="headers">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="Accept" />
+                <option name="value" value="*/*" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="Cache-Control" />
+                <option name="value" value="no-cache" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="parameters">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="&quot;quizId&quot;" />
+                <option name="value" value="1" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="&quot;navn&quot;" />
+                <option name="value" value="&quot;Kristian&quot;" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="&quot;sporsmal&quot;" />
+                <option name="value" value="null" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="&quot;opprettet&quot;" />
+                <option name="value" value="null" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="&quot;start&quot;" />
+                <option name="value" value="null" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="&quot;avsluttes&quot;" />
+                <option name="value" value="null" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="haveTextToSend" value="true" />
+          <option name="textToSend" value="quizId: 1, navn:&quot;KRistian" />
+          <option name="filesToSend" value="" />
+        </RestClientRequest>
+        <RestClientRequest>
+          <option name="httpMethod" value="POST" />
+          <option name="urlBase" value="http://localhost:8080" />
+          <option name="urlPath" value="sysutvQuiz/rest/quiz/" />
+          <option name="headers">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="Accept" />
+                <option name="value" value="*/*" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="Cache-Control" />
+                <option name="value" value="no-cache" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="parameters">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="&quot;quizId&quot;" />
+                <option name="value" value="1" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="&quot;navn&quot;" />
+                <option name="value" value="&quot;Kristian&quot;" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="&quot;sporsmal&quot;" />
+                <option name="value" value="null" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="&quot;opprettet&quot;" />
+                <option name="value" value="null" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="&quot;start&quot;" />
+                <option name="value" value="null" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="&quot;avsluttes&quot;" />
+                <option name="value" value="null" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="textToSend" value="quizId: 1, navn:&quot;KRistian" />
+          <option name="filesToSend" value="" />
+        </RestClientRequest>
+        <RestClientRequest>
+          <option name="httpMethod" value="POST" />
+          <option name="urlBase" value="http://localhost:8080" />
+          <option name="urlPath" value="sysutvQuiz/rest/quiz/" />
+          <option name="headers">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="Accept" />
+                <option name="value" value="*/*" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="Cache-Control" />
+                <option name="value" value="no-cache" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="parameters">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="&quot;quizId&quot;" />
+                <option name="value" value="1" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="&quot;navn&quot;" />
+                <option name="value" value="&quot;Kristian&quot;" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="&quot;sporsmal&quot;" />
+                <option name="value" value="null" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="&quot;opprettet&quot;" />
+                <option name="value" value="null" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="&quot;start&quot;" />
+                <option name="value" value="null" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="&quot;avsluttes&quot;" />
+                <option name="value" value="null" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="textToSend" value="{ &quot;quizId&quot;:1,&quot;navn&quot;:&quot;KRistian&quot;}" />
+          <option name="filesToSend" value="" />
+        </RestClientRequest>
+        <RestClientRequest>
+          <option name="httpMethod" value="POST" />
+          <option name="urlBase" value="http://localhost:8080" />
+          <option name="urlPath" value="sysutvQuiz/rest/quiz/" />
+          <option name="headers">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="Accept" />
+                <option name="value" value="*/*" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="Cache-Control" />
+                <option name="value" value="no-cache" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="parameters">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="&quot;quizId&quot;" />
+                <option name="value" value="1" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="&quot;navn&quot;" />
+                <option name="value" value="&quot;Kristian&quot;" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="&quot;sporsmal&quot;" />
+                <option name="value" value="null" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="&quot;opprettet&quot;" />
+                <option name="value" value="null" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="&quot;start&quot;" />
+                <option name="value" value="null" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="&quot;avsluttes&quot;" />
+                <option name="value" value="null" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="textToSend" value=" &quot;quizId&quot;:1,&quot;navn&quot;:&quot;KRistian&quot;" />
+          <option name="filesToSend" value="" />
+        </RestClientRequest>
+        <RestClientRequest>
+          <option name="httpMethod" value="POST" />
+          <option name="urlBase" value="http://localhost:8080" />
+          <option name="urlPath" value="sysutvQuiz/rest/quiz/" />
+          <option name="headers">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="Accept" />
+                <option name="value" value="*/*" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="Cache-Control" />
+                <option name="value" value="no-cache" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="parameters">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="&quot;quizId&quot;" />
+                <option name="value" value="1" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="&quot;navn&quot;" />
+                <option name="value" value="&quot;Kristian&quot;" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="&quot;sporsmal&quot;" />
+                <option name="value" value="null" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="&quot;opprettet&quot;" />
+                <option name="value" value="null" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="&quot;start&quot;" />
+                <option name="value" value="null" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="&quot;avsluttes&quot;" />
+                <option name="value" value="null" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="textToSend" value=" &quot;quizId&quot;: &quot;1&quot;,&quot;navn&quot;:&quot;KRistian&quot;" />
+          <option name="filesToSend" value="" />
+        </RestClientRequest>
+        <RestClientRequest>
+          <option name="httpMethod" value="POST" />
+          <option name="urlBase" value="http://localhost:8080" />
+          <option name="urlPath" value="sysutvQuiz/rest/quiz/" />
+          <option name="headers">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="Accept" />
+                <option name="value" value="*/*" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="Cache-Control" />
+                <option name="value" value="no-cache" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="parameters">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="&quot;quizId&quot;" />
+                <option name="value" value="1" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="&quot;navn&quot;" />
+                <option name="value" value="&quot;Kristian&quot;" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="&quot;sporsmal&quot;" />
+                <option name="value" value="null" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="&quot;opprettet&quot;" />
+                <option name="value" value="null" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="&quot;start&quot;" />
+                <option name="value" value="null" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="&quot;avsluttes&quot;" />
+                <option name="value" value="null" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="textToSend" value=" &quot;quizId&quot;: &quot;1&quot;,     &quot;navn&quot;:&quot;KRistian&quot;,       &quot;sporsmal&quot;: [{&quot;sporsmal&quot;: &quot;Hei&quot;,&quot;svarAlternativ&quot;:[&quot;svaralternativ&quot;:&quot;Hadet&quot;,&quot;svaralternativ&quot;:&quot;heisann&quot;,&quot;svaralternativ&quot;:&quot;bra&quot;]}]  " />
+          <option name="filesToSend" value="" />
+        </RestClientRequest>
+        <RestClientRequest>
+          <option name="httpMethod" value="POST" />
+          <option name="urlBase" value="http://localhost:8080" />
+          <option name="urlPath" value="sysutvQuiz/rest/quiz/" />
+          <option name="headers">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="Accept" />
+                <option name="value" value="*/*" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="Cache-Control" />
+                <option name="value" value="no-cache" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="parameters">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="&quot;quizId&quot;" />
+                <option name="value" value="1" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="&quot;navn&quot;" />
+                <option name="value" value="&quot;Kristian&quot;" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="&quot;sporsmal&quot;" />
+                <option name="value" value="null" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="&quot;opprettet&quot;" />
+                <option name="value" value="null" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="&quot;start&quot;" />
+                <option name="value" value="null" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="&quot;avsluttes&quot;" />
+                <option name="value" value="null" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="textToSend" value=" &quot;quizId&quot;: &quot;1&quot;,      &quot;navn&quot;:&quot;KRistian&quot;,       &quot;sporsmal&quot;: [{&quot;sporsmal&quot;: &quot;Hei&quot;,&quot;svarAlternativ&quot;: [&quot;svaralternativ&quot;:&quot;Hadet&quot;,&quot;svaralternativ&quot;:&quot;heisann&quot;,&quot;svaralternativ&quot;:&quot;bra&quot;]}],        &quot;opprettet&quot;: 2017-05-27,         &quot;start&quot;: 2017-06-12,         &quot;avsluttes&quot;: 2017-07-10  " />
+          <option name="filesToSend" value="" />
+        </RestClientRequest>
+        <RestClientRequest>
+          <option name="httpMethod" value="POST" />
+          <option name="urlBase" value="http://localhost:8080" />
+          <option name="urlPath" value="sysutvQuiz/rest/quiz/" />
+          <option name="headers">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="Accept" />
+                <option name="value" value="*/*" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="Cache-Control" />
+                <option name="value" value="no-cache" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="parameters">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="&quot;quizId&quot;" />
+                <option name="value" value="1" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="&quot;navn&quot;" />
+                <option name="value" value="&quot;Kristian&quot;" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="&quot;sporsmal&quot;" />
+                <option name="value" value="null" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="&quot;opprettet&quot;" />
+                <option name="value" value="null" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="&quot;start&quot;" />
+                <option name="value" value="null" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="&quot;avsluttes&quot;" />
+                <option name="value" value="null" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="textToSend" value=" &quot;quizId&quot;: &quot;1&quot;,  &quot;navn&quot;:&quot;KRistian&quot;,  &quot;sporsmal&quot;: null,  &quot;opprettet&quot;: null,  &quot;start&quot;: null,  &quot;avsluttes&quot;: null  " />
+          <option name="filesToSend" value="" />
+        </RestClientRequest>
+        <RestClientRequest>
+          <option name="httpMethod" value="GET" />
+          <option name="urlBase" value="http://localhost:8080" />
+          <option name="urlPath" value="sysutvQuiz/rest/quiz/" />
+          <option name="headers">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="Accept" />
+                <option name="value" value="*/*" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="Cache-Control" />
+                <option name="value" value="no-cache" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="parameters">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="&quot;quizId&quot;" />
+                <option name="value" value="1" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="&quot;navn&quot;" />
+                <option name="value" value="&quot;Kristian&quot;" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="&quot;sporsmal&quot;" />
+                <option name="value" value="null" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="&quot;opprettet&quot;" />
+                <option name="value" value="null" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="&quot;start&quot;" />
+                <option name="value" value="null" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="&quot;avsluttes&quot;" />
+                <option name="value" value="null" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="textToSend" value=" &quot;quizId&quot;: &quot;1&quot;,  &quot;navn&quot;:&quot;KRistian&quot;,  &quot;sporsmal&quot;: null,  &quot;opprettet&quot;: null,  &quot;start&quot;: null,  &quot;avsluttes&quot;: null  " />
+          <option name="filesToSend" value="" />
+        </RestClientRequest>
+        <RestClientRequest>
+          <option name="httpMethod" value="GET" />
+          <option name="urlBase" value="http://localhost:8080" />
+          <option name="urlPath" value="sysutvQuiz/quiz/" />
+          <option name="headers">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="Accept" />
+                <option name="value" value="*/*" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="Cache-Control" />
+                <option name="value" value="no-cache" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="parameters">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="&quot;quizId&quot;" />
+                <option name="value" value="1" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="&quot;navn&quot;" />
+                <option name="value" value="&quot;Kristian&quot;" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="&quot;sporsmal&quot;" />
+                <option name="value" value="null" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="&quot;opprettet&quot;" />
+                <option name="value" value="null" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="&quot;start&quot;" />
+                <option name="value" value="null" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="&quot;avsluttes&quot;" />
+                <option name="value" value="null" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="textToSend" value=" &quot;quizId&quot;: &quot;1&quot;,  &quot;navn&quot;:&quot;KRistian&quot;,  &quot;sporsmal&quot;: null,  &quot;opprettet&quot;: null,  &quot;start&quot;: null,  &quot;avsluttes&quot;: null  " />
+          <option name="filesToSend" value="" />
+        </RestClientRequest>
+        <RestClientRequest>
+          <option name="httpMethod" value="POST" />
+          <option name="urlBase" value="http://localhost:8080" />
+          <option name="urlPath" value="sysutvQuiz/quiz/" />
+          <option name="headers">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="Accept" />
+                <option name="value" value="*/*" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="Cache-Control" />
+                <option name="value" value="no-cache" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="parameters">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="&quot;quizId&quot;" />
+                <option name="value" value="1" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="&quot;navn&quot;" />
+                <option name="value" value="&quot;Kristian&quot;" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="&quot;sporsmal&quot;" />
+                <option name="value" value="null" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="&quot;opprettet&quot;" />
+                <option name="value" value="null" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="&quot;start&quot;" />
+                <option name="value" value="null" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="&quot;avsluttes&quot;" />
+                <option name="value" value="null" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="haveTextToSend" value="true" />
+          <option name="textToSend" value=" &quot;quizId&quot;: &quot;1&quot;,  &quot;navn&quot;:&quot;KRistian&quot;,  &quot;sporsmal&quot;: null,  &quot;opprettet&quot;: null,  &quot;start&quot;: null,  &quot;avsluttes&quot;: null  " />
+          <option name="filesToSend" value="" />
+        </RestClientRequest>
+        <RestClientRequest>
+          <option name="httpMethod" value="POST" />
+          <option name="urlBase" value="http://localhost:8080" />
+          <option name="urlPath" value="/quiz/" />
+          <option name="headers">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="Accept" />
+                <option name="value" value="*/*" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="Cache-Control" />
+                <option name="value" value="no-cache" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="parameters">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="&quot;quizId&quot;" />
+                <option name="value" value="1" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="&quot;navn&quot;" />
+                <option name="value" value="&quot;Kristian&quot;" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="&quot;sporsmal&quot;" />
+                <option name="value" value="null" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="&quot;opprettet&quot;" />
+                <option name="value" value="null" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="&quot;start&quot;" />
+                <option name="value" value="null" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="&quot;avsluttes&quot;" />
+                <option name="value" value="null" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="haveTextToSend" value="true" />
+          <option name="textToSend" value=" &quot;quizId&quot;: &quot;1&quot;,  &quot;navn&quot;:&quot;KRistian&quot;,  &quot;sporsmal&quot;: null,  &quot;opprettet&quot;: null,  &quot;start&quot;: null,  &quot;avsluttes&quot;: null  " />
+          <option name="filesToSend" value="" />
+        </RestClientRequest>
+        <RestClientRequest>
+          <option name="httpMethod" value="POST" />
+          <option name="urlBase" value="http://localhost:8080" />
+          <option name="urlPath" value="/sysutvQuiz/rest/quiz" />
+          <option name="headers">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="Accept" />
+                <option name="value" value="*/*" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="Cache-Control" />
+                <option name="value" value="no-cache" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="parameters">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="&quot;quizId&quot;" />
+                <option name="value" value="1" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="&quot;navn&quot;" />
+                <option name="value" value="&quot;Kristian&quot;" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="&quot;sporsmal&quot;" />
+                <option name="value" value="null" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="&quot;opprettet&quot;" />
+                <option name="value" value="null" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="&quot;start&quot;" />
+                <option name="value" value="null" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="&quot;avsluttes&quot;" />
+                <option name="value" value="null" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="haveTextToSend" value="true" />
+          <option name="textToSend" value=" &quot;quizId&quot;: &quot;1&quot;,  &quot;navn&quot;:&quot;KRistian&quot;,  &quot;sporsmal&quot;: null,  &quot;opprettet&quot;: null,  &quot;start&quot;: null,  &quot;avsluttes&quot;: null  " />
+          <option name="filesToSend" value="" />
+        </RestClientRequest>
+        <RestClientRequest>
+          <option name="httpMethod" value="POST" />
+          <option name="urlBase" value="http://localhost:8080" />
+          <option name="urlPath" value="/sysutvQuiz/rest/quiz" />
+          <option name="headers">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="Accept" />
+                <option name="value" value="*/*" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="Cache-Control" />
+                <option name="value" value="no-cache" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="parameters">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="&quot;quizId&quot;" />
+                <option name="value" value="1" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="&quot;navn&quot;" />
+                <option name="value" value="&quot;Kristian&quot;" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="&quot;sporsmal&quot;" />
+                <option name="value" value="null" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="&quot;opprettet&quot;" />
+                <option name="value" value="null" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="&quot;start&quot;" />
+                <option name="value" value="null" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="&quot;avsluttes&quot;" />
+                <option name="value" value="null" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="haveTextToSend" value="true" />
+          <option name="textToSend" value="{&quot;quizId&quot;: &quot;1&quot;, &quot;navn&quot;:&quot;KRistian&quot;, &quot;sporsmal&quot;: null, &quot;opprettet&quot;: &quot;null&quot;, &quot;start&quot;: &quot;null&quot;, &quot;avsluttes&quot; :&quot;null&quot;}" />
+          <option name="filesToSend" value="" />
+        </RestClientRequest>
+        <RestClientRequest>
+          <option name="httpMethod" value="POST" />
+          <option name="urlBase" value="http://localhost:8080" />
+          <option name="urlPath" value="/sysutvQuiz/rest/quiz" />
+          <option name="headers">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="Accept" />
+                <option name="value" value="*/*" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="Cache-Control" />
+                <option name="value" value="no-cache" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="parameters">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="&quot;quizId&quot;" />
+                <option name="value" value="1" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="&quot;navn&quot;" />
+                <option name="value" value="&quot;Kristian&quot;" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="&quot;sporsmal&quot;" />
+                <option name="value" value="null" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="&quot;opprettet&quot;" />
+                <option name="value" value="null" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="&quot;start&quot;" />
+                <option name="value" value="null" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="&quot;avsluttes&quot;" />
+                <option name="value" value="null" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="haveTextToSend" value="true" />
+          <option name="textToSend" value="{&quot;quizId&quot;: 1, &quot;navn&quot;:&quot;KRistian&quot;, &quot;sporsmal&quot;: null, &quot;opprettet&quot;: null, &quot;start&quot;: null, &quot;avsluttes&quot; :null}" />
+          <option name="filesToSend" value="" />
+        </RestClientRequest>
+        <RestClientRequest>
+          <option name="httpMethod" value="POST" />
+          <option name="urlBase" value="http://localhost:8080" />
+          <option name="urlPath" value="/sysutvQuiz/rest/quiz" />
+          <option name="headers">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="Accept" />
+                <option name="value" value="*/*" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="Cache-Control" />
+                <option name="value" value="no-cache" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="parameters">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="&quot;quizId&quot;" />
+                <option name="value" value="1" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="&quot;navn&quot;" />
+                <option name="value" value="&quot;Kristian&quot;" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="&quot;sporsmal&quot;" />
+                <option name="value" value="null" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="&quot;opprettet&quot;" />
+                <option name="value" value="null" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="&quot;start&quot;" />
+                <option name="value" value="null" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="&quot;avsluttes&quot;" />
+                <option name="value" value="null" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="haveTextToSend" value="true" />
+          <option name="textToSend" value="&quot;quizId&quot;: 1, &quot;navn&quot;:&quot;KRistian&quot;, &quot;sporsmal&quot;: null, &quot;opprettet&quot;: null, &quot;start&quot;: null, &quot;avsluttes&quot; :null" />
+          <option name="filesToSend" value="" />
+        </RestClientRequest>
+        <RestClientRequest>
+          <option name="httpMethod" value="POST" />
+          <option name="urlBase" value="http://localhost:8080" />
+          <option name="urlPath" value="/sysutvQuiz/rest/quiz" />
+          <option name="headers">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="Accept" />
+                <option name="value" value="*/*" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="Cache-Control" />
+                <option name="value" value="no-cache" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="parameters">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="&quot;quizId&quot;" />
+                <option name="value" value="1" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="&quot;navn&quot;" />
+                <option name="value" value="&quot;Kristian&quot;" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="&quot;sporsmal&quot;" />
+                <option name="value" value="null" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="&quot;opprettet&quot;" />
+                <option name="value" value="null" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="&quot;start&quot;" />
+                <option name="value" value="null" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="&quot;avsluttes&quot;" />
+                <option name="value" value="null" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="haveTextToSend" value="true" />
+          <option name="textToSend" value="&quot;quizId&quot; = 1; &quot;navn&quot; = &quot;KRistian&quot;; &quot;sporsmal&quot; = null; &quot;opprettet&quot; = null; &quot;start&quot; = null; &quot;avsluttes&quot; = null;" />
+          <option name="filesToSend" value="" />
+        </RestClientRequest>
+        <RestClientRequest>
+          <option name="httpMethod" value="POST" />
+          <option name="urlBase" value="http://localhost:8080" />
+          <option name="urlPath" value="/sysutvQuiz/rest/quiz" />
+          <option name="headers">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="Accept" />
+                <option name="value" value="*/*" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="Cache-Control" />
+                <option name="value" value="no-cache" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="parameters">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="&quot;quizId&quot;" />
+                <option name="value" value="1" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="&quot;navn&quot;" />
+                <option name="value" value="&quot;Kristian&quot;" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="&quot;sporsmal&quot;" />
+                <option name="value" value="null" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="&quot;opprettet&quot;" />
+                <option name="value" value="null" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="&quot;start&quot;" />
+                <option name="value" value="null" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="&quot;avsluttes&quot;" />
+                <option name="value" value="null" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="parametersEnabled" value="true" />
+          <option name="textToSend" value="" />
+          <option name="filesToSend" value="" />
+        </RestClientRequest>
+        <RestClientRequest>
+          <option name="httpMethod" value="POST" />
+          <option name="urlBase" value="http://localhost:8080" />
+          <option name="urlPath" value="/sysutvQuiz/rest/quiz" />
+          <option name="headers">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="Accept" />
+                <option name="value" value="*/*" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="Cache-Control" />
+                <option name="value" value="no-cache" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="parameters">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="&quot;quizId&quot;" />
+                <option name="value" value="1" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="&quot;navn&quot;" />
+                <option name="value" value="&quot;Kristian&quot;" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="&quot;sporsmal&quot;" />
+                <option name="value" value="{new Sporsmal(&quot;Kris&quot;,null,1,3)}" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="&quot;opprettet&quot;" />
+                <option name="value" value="null" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="&quot;start&quot;" />
+                <option name="value" value="null" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="&quot;avsluttes&quot;" />
+                <option name="value" value="null" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="parametersEnabled" value="true" />
+          <option name="textToSend" value="" />
+          <option name="filesToSend" value="" />
+        </RestClientRequest>
+        <RestClientRequest>
+          <option name="httpMethod" value="POST" />
+          <option name="urlBase" value="http://localhost:8080" />
+          <option name="urlPath" value="/sysutvQuiz/rest/quiz" />
+          <option name="headers">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="Accept" />
+                <option name="value" value="*/*" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="Cache-Control" />
+                <option name="value" value="no-cache" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="parameters">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="quizId" />
+                <option name="value" value="1" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="navn" />
+                <option name="value" value="Kristian" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="sporsmal" />
+                <option name="value" value="{new Sporsmal(&quot;Kris&quot;,null,1,3)}" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="opprettet" />
+                <option name="value" value="null" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="start" />
+                <option name="value" value="null" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="avsluttes" />
+                <option name="value" value="null" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="parametersEnabled" value="true" />
+          <option name="textToSend" value="" />
+          <option name="filesToSend" value="" />
+        </RestClientRequest>
+        <RestClientRequest>
+          <option name="httpMethod" value="POST" />
+          <option name="urlBase" value="http://localhost:8080" />
+          <option name="urlPath" value="/sysutvQuiz/rest/quiz" />
+          <option name="headers">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="Accept" />
+                <option name="value" value="*/*" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="Cache-Control" />
+                <option name="value" value="no-cache" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="parameters">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="quizId" />
+                <option name="value" value="1" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="parametersEnabled" value="true" />
+          <option name="textToSend" value="" />
+          <option name="filesToSend" value="" />
+        </RestClientRequest>
+        <RestClientRequest>
+          <option name="httpMethod" value="GET" />
+          <option name="urlBase" value="http://localhost:8080" />
+          <option name="urlPath" value="/sysutvQuiz/rest/quiz" />
+          <option name="headers">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="Accept" />
+                <option name="value" value="*/*" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="Cache-Control" />
+                <option name="value" value="no-cache" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="parametersEnabled" value="true" />
+          <option name="textToSend" value="" />
+          <option name="filesToSend" value="" />
+        </RestClientRequest>
         <RestClientRequest>
           <option name="httpMethod" value="GET" />
           <option name="urlBase" value="http://localhost:8080" />
@@ -562,7 +2213,25 @@
       <workItem from="1505908983941" duration="2700000" />
       <workItem from="1505912237731" duration="4522000" />
       <workItem from="1505917010904" duration="223000" />
-      <workItem from="1505917265110" duration="1082000" />
+      <workItem from="1505917265110" duration="2608000" />
+      <workItem from="1505927249405" duration="3052000" />
+      <workItem from="1505931036316" duration="130000" />
+      <workItem from="1505931199330" duration="55000" />
+      <workItem from="1505931305336" duration="147000" />
+      <workItem from="1505931479817" duration="156000" />
+      <workItem from="1505931687978" duration="189000" />
+      <workItem from="1505932018735" duration="261000" />
+      <workItem from="1505932514528" duration="305000" />
+      <workItem from="1505932847004" duration="66000" />
+      <workItem from="1505932928099" duration="9000" />
+      <workItem from="1505932954037" duration="2263000" />
+      <workItem from="1505937316068" duration="305000" />
+      <workItem from="1505937657749" duration="370000" />
+      <workItem from="1505938266565" duration="412000" />
+      <workItem from="1505938751714" duration="3239000" />
+      <workItem from="1505943944568" duration="8521000" />
+      <workItem from="1505990896941" duration="12170000" />
+      <workItem from="1506205309033" duration="3216000" />
     </task>
     <task id="LOCAL-00001" summary="MAnglet noen mapper.">
       <created>1505753387187</created>
@@ -578,31 +2247,46 @@
       <option name="project" value="LOCAL" />
       <updated>1505753443309</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Lots of changes!">
+      <created>1505918382339</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1505918382339</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="26376000" />
+    <option name="totallyTimeSpent" value="62768000" />
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="23" width="1680" height="970" extended-state="0" />
-    <editor active="true" />
+    <frame x="0" y="23" width="1539" height="893" extended-state="0" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32914287" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32914287" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32967034" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="REST Client" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3283208" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32914287" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3283208" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.33394384" sideWeight="0.496" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.39078155" sideWeight="0.496" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Bean Validation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.30830282" sideWeight="0.504" order="3" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -610,16 +2294,49 @@
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32914287" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="REST Client" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32914287" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32914287" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
+    <layout-to-restore>
+      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32967034" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32914287" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32914287" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="REST Client" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32914287" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32914287" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3809524" sideWeight="0.496" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Bean Validation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.30830282" sideWeight="0.504" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="true" content_ui="tabs" />
+    </layout-to-restore>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
@@ -638,35 +2355,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/quiz/Quiz.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="5" column="43" lean-forward="false" selection-start-line="5" selection-start-column="43" selection-end-line="5" selection-end-column="43" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/quiz/SvarAlternativ.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="10" column="30" lean-forward="false" selection-start-line="10" selection-start-column="30" selection-end-line="10" selection-end-column="30" />
-          <folding>
-            <element signature="e#404#405#0" expanded="true" />
-            <element signature="e#456#457#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="20" column="10" lean-forward="false" selection-start-line="20" selection-start-column="10" selection-end-line="20" selection-end-column="10" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/webapp/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="120">
@@ -699,6 +2387,8 @@
           <caret line="5" column="43" lean-forward="false" selection-start-line="5" selection-start-column="43" selection-end-line="5" selection-end-column="43" />
           <folding>
             <element signature="imports" expanded="true" />
+            <marker date="1506205956000" expanded="false" signature="664:675" ph=" { " />
+            <marker date="1506205956000" expanded="false" signature="700:706" ph=" }" />
           </folding>
         </state>
       </provider>
@@ -707,10 +2397,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="150">
           <caret line="10" column="30" lean-forward="false" selection-start-line="10" selection-start-column="30" selection-end-line="10" selection-end-column="30" />
-          <folding>
-            <element signature="e#404#405#0" expanded="true" />
-            <element signature="e#456#457#0" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -754,6 +2441,8 @@
           <caret line="5" column="43" lean-forward="true" selection-start-line="5" selection-start-column="43" selection-end-line="5" selection-end-column="43" />
           <folding>
             <element signature="imports" expanded="true" />
+            <marker date="1506205956000" expanded="false" signature="664:675" ph=" { " />
+            <marker date="1506205956000" expanded="false" signature="700:706" ph=" }" />
           </folding>
         </state>
       </provider>
@@ -762,10 +2451,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="150">
           <caret line="10" column="30" lean-forward="true" selection-start-line="10" selection-start-column="30" selection-end-line="10" selection-end-column="30" />
-          <folding>
-            <element signature="e#404#405#0" expanded="true" />
-            <element signature="e#456#457#0" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -825,6 +2511,8 @@
           <caret line="2" column="19" lean-forward="false" selection-start-line="2" selection-start-column="19" selection-end-line="2" selection-end-column="19" />
           <folding>
             <element signature="imports" expanded="true" />
+            <marker date="1506205956000" expanded="false" signature="664:675" ph=" { " />
+            <marker date="1506205956000" expanded="false" signature="700:706" ph=" }" />
           </folding>
         </state>
       </provider>
@@ -843,6 +2531,8 @@
           <caret line="2" column="19" lean-forward="true" selection-start-line="2" selection-start-column="19" selection-end-line="2" selection-end-column="19" />
           <folding>
             <element signature="imports" expanded="true" />
+            <marker date="1506205956000" expanded="false" signature="664:675" ph=" { " />
+            <marker date="1506205956000" expanded="false" signature="700:706" ph=" }" />
           </folding>
         </state>
       </provider>
@@ -944,13 +2634,6 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/webapp/tile.txt" />
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/js/bootstrap.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/webapp/css/bootstrap.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-2064">
@@ -981,25 +2664,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/quiz/Sporsmal.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="20" column="59" lean-forward="false" selection-start-line="20" selection-start-column="59" selection-end-line="20" selection-end-column="59" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/quiz/SvarAlternativ.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="195">
-          <caret line="17" column="45" lean-forward="false" selection-start-line="17" selection-start-column="45" selection-end-line="17" selection-end-column="45" />
-          <folding>
-            <element signature="e#404#405#0" expanded="true" />
-            <element signature="e#456#457#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1245">
@@ -1008,63 +2672,137 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/js/quiz.js">
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/js/bootstrap.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="16" column="26" lean-forward="false" selection-start-line="16" selection-start-column="26" selection-end-line="16" selection-end-column="26" />
+        <state relative-caret-position="1677">
+          <caret line="1575" column="30" lean-forward="false" selection-start-line="1575" selection-start-column="30" selection-end-line="1575" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/scoreboard.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="405">
+          <caret line="27" column="17" lean-forward="false" selection-start-line="27" selection-start-column="17" selection-end-line="27" selection-end-column="17" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/webapp/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="420">
-          <caret line="28" column="29" lean-forward="false" selection-start-line="28" selection-start-column="29" selection-end-line="28" selection-end-column="29" />
+        <state relative-caret-position="120">
+          <caret line="8" column="4" lean-forward="false" selection-start-line="8" selection-start-column="4" selection-end-line="8" selection-end-column="48" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/scoreboard.html">
+    <entry file="file://$PROJECT_DIR$/src/main/java/quiz/Score.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="20" column="8" lean-forward="false" selection-start-line="20" selection-start-column="8" selection-end-line="20" selection-end-column="27" />
+          <folding>
+            <element signature="e#114#115#0" expanded="true" />
+            <element signature="e#141#142#0" expanded="true" />
+            <element signature="e#181#182#0" expanded="true" />
+            <element signature="e#213#214#0" expanded="true" />
+            <element signature="e#242#243#0" expanded="true" />
+            <element signature="e#270#271#0" expanded="true" />
+            <element signature="e#309#310#0" expanded="true" />
+            <element signature="e#343#344#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/quiz/Scoreboard.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="14" column="23" lean-forward="false" selection-start-line="14" selection-start-column="23" selection-end-line="14" selection-end-column="23" />
+          <folding>
+            <element signature="e#115#116#0" expanded="true" />
+            <element signature="e#141#142#0" expanded="true" />
+            <element signature="e#176#177#0" expanded="true" />
+            <element signature="e#206#207#0" expanded="true" />
+            <element signature="e#237#238#0" expanded="true" />
+            <element signature="e#265#266#0" expanded="true" />
+            <element signature="e#306#307#0" expanded="true" />
+            <element signature="e#340#341#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/css/index.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="390">
-          <caret line="26" column="25" lean-forward="false" selection-start-line="26" selection-start-column="25" selection-end-line="26" selection-end-column="25" />
+          <caret line="26" column="1" lean-forward="false" selection-start-line="26" selection-start-column="1" selection-end-line="26" selection-end-column="1" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/addquiz.html">
+    <entry file="file://$PROJECT_DIR$/src/main/java/quiz/QuizService.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="716">
-          <caret line="53" column="6" lean-forward="false" selection-start-line="53" selection-start-column="6" selection-end-line="53" selection-end-column="6" />
+        <state relative-caret-position="286">
+          <caret line="22" column="4" lean-forward="false" selection-start-line="22" selection-start-column="4" selection-end-line="40" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/quiz/ScoreboardService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="207">
+          <caret line="24" column="5" lean-forward="true" selection-start-line="24" selection-start-column="5" selection-end-line="24" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#735#736#0" expanded="true" />
+            <element signature="e#800#801#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/quiz/SvarAlternativ.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="9" column="0" lean-forward="false" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/index.css">
+    <entry file="file://$PROJECT_DIR$/src/main/java/quiz/Sporsmal.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="22" column="17" lean-forward="true" selection-start-line="22" selection-start-column="17" selection-end-line="22" selection-end-column="17" />
+        <state relative-caret-position="90">
+          <caret line="6" column="27" lean-forward="false" selection-start-line="6" selection-start-column="27" selection-end-line="6" selection-end-column="27" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/quiz/Quiz.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="8" column="30" lean-forward="false" selection-start-line="8" selection-start-column="30" selection-end-line="8" selection-end-column="30" />
+        <state relative-caret-position="297">
+          <caret line="29" column="0" lean-forward="true" selection-start-line="29" selection-start-column="0" selection-end-line="29" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
+            <marker date="1506205956000" expanded="false" signature="664:675" ph=" { " />
+            <marker date="1506205956000" expanded="false" signature="700:706" ph=" }" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/quiz/QuizService.java">
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/addquiz.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="20" column="5" lean-forward="true" selection-start-line="20" selection-start-column="5" selection-end-line="20" selection-end-column="5" />
+        <state relative-caret-position="226">
+          <caret line="42" column="38" lean-forward="false" selection-start-line="42" selection-start-column="38" selection-end-line="42" selection-end-column="38" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="n#style#0;n#div#1;n#form#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#2;n#form#0;n#body#0;n#html#0;n#!!top" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/js/quiz.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1215">
+          <caret line="81" column="20" lean-forward="false" selection-start-line="81" selection-start-column="20" selection-end-line="81" selection-end-column="20" />
+          <folding />
         </state>
       </provider>
     </entry>
