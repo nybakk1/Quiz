@@ -1,11 +1,13 @@
 package quiz;
 
 
+import java.util.ArrayList;
+import java.util.List;
 
 public class Scoreboard {
 
     private int qid;
-    private Spiller[] spiller;
+    private List<Spiller> spiller;
 
     public int getQid() {
         return qid;
@@ -15,11 +17,11 @@ public class Scoreboard {
         this.qid = qid;
     }
 
-    public Spiller[] getSpiller() {
+    public List<Spiller> getSpiller() {
         return spiller;
     }
 
-    public void setSpiller(Spiller[] spiller) {
+    public void setSpiller(List<Spiller> spiller) {
         this.spiller = spiller;
     }
 }

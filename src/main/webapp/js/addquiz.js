@@ -41,7 +41,7 @@ $(document).ready(function () {
                     "<input type=\"score" + x + "\" class=\"form-control\" id=\"score" + x + "\">" +
                 "</div>\n" +
                 "<div class=\"form-group\">" +
-                    "<label for=\"imgUrl" + x + "\">Bilde:</label>" +
+                    "<label for=\"imgUrl" + x + "\">Bilde: (http://guru-utvikling.no/wp-content/uploads/2017/05/Bilde-til-sak-om-bilder-750x365.jpg)</label>" +
                     "<input type=\"imgUrl" + x + "\" class=\"form-control\" id=\"imgUrl" + x + "\">" +
                 "</div>"
             ); //add input box
@@ -64,6 +64,19 @@ $(document).ready(function () {
                 imgUrl: $("#imgUrl" + i).val(),
             });
         };
+        var i = 1;
+        spm.push({
+            sporsmal: $(("#sporsmal" + i)).val(),
+            svarAlternativ:
+                [{
+                    svaralternativ: $(("#alt1" + i)).val()}, { svaralternativ: $("#alt2" + i).val()},{ svaralternativ: $("#alt3" + i).val()},{ svaralternativ: $("#alt4" + i).val()} ],
+            score: $("#score" + i).val(),
+            riktigSvar: $("#riktig" + i).val(),
+            lengde: $("#lengde" + i).val(),
+            imgUrl: $("#imgUrl" + i).val(),
+        });
+
+
         $.ajax({
             url: 'rest/quiz/',
             type: 'post',

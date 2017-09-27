@@ -52,6 +52,9 @@ body {
     background-color: white;
     cursor: pointer;
 }
+#clicked {
+
+}
 .kanten {
     border-radius: 15px;
 }

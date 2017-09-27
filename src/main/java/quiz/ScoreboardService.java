@@ -1,6 +1,8 @@
 package quiz;
 
 
+import sun.security.provider.ConfigFile;
+
 import javax.ws.rs.*;
 import javax.ws.rs.core.MediaType;
 import java.util.Collection;
@@ -17,6 +19,7 @@ public class ScoreboardService {
     public Collection<Scoreboard> getScoreboard() {
         return scoreboardMap.values();
     }
+
     @GET
     @Path("/{qid}")
     @Produces(MediaType.APPLICATION_JSON)
@@ -26,7 +29,7 @@ public class ScoreboardService {
 
     @POST
     @Consumes(MediaType.APPLICATION_JSON)
-    public void addScoreboard(Scoreboard scoreboard){
+    public void setScoreboard(Scoreboard scoreboard){
         scoreboardMap.put(scoreboard.getQid(),scoreboard);
     }
 

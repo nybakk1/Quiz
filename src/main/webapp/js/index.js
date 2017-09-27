@@ -1,6 +1,7 @@
 $(document).ready(function () {
-    var brukernavn = "anon";
+    var brukernavn = "Velg Brukernavn";
     var quiz = getAllQuizzes();
+
 
 
 
@@ -21,47 +22,89 @@ $(document).ready(function () {
     };
 
 
+
     function showQuizOverview(q) {
         $("#quizview").hide("slow");
         $("#quiz_runner").show();
-        $("#quiz_runner").append("<div class=\"text-center jumbotron kanten\"><h4>Du har valgt quiz #" + q.quizId + ": " + q.navn + "<br>Quizen består av " + q.sporsmal.length + " spørsmål  </h4></div>");
+        $("#quiz_runner").append("<div class=\"text-center jumbotron kanten\"><h4>Du har valgt quiz #" + q.quizId + ": " + q.navn +
+            "<br>Quizen består av " + (q.sporsmal.length-1) + " spørsmål  </h4>" +
+            "<br><input class='text-center' id='uname' type='text' value='" + brukernavn + "'></input></div>");
+        $("#uname").change(function () {
+            setUname($("#uname").val());
+        });
         if (q.start < new Date() && q.start != null){
             var $add = $("<div class=\"text-center jumbotron kanten \" id=\"startQuiz\"><h3> Start Quiz </h3></div>");
             $add.click(function () {
                 $("#quiz_runner").hide("slow");
-                runQuiz(q.quizId,0);
+                kjoyr(q.quizId);
             });
             $("#quiz_runner").append($add);
         } else {
             var $nope = $("<div class=\"text-center jumbotron kanten \" id='ingenQuiz'> <h4>Quiz har ikke startet enda</h4> </div>");
             $("#quiz_runner").append($nope);
         }
-
-
     }
-    function runQuiz(qz,i) {
-        var kvis = getQuiz(qz);
-        //$("#quiz_runner").hide("slow");
-        $("#spmop").show();
-        $("#nuKjorVi").show();
-        var $s = $("<div class=\"text-center jumbotron\"> " + kvis.sporsmal[i].sporsmal + "<img src=\"http://d1qtywusn5i66q.cloudfront.net/app/uploads/2016/03/Bilde-elephant-80x120cm-kr1499-A-m%C3%B8bler.jpg\"  style='width:200;height:200px'> </div>");
+
+
+    function changeQuestion(kvis,i) {
+        var l = kvis.sporsmal[i].lengde - 1;
+        var x = setInterval(function () {
+            $("#timer").html("Tid igjen " + l);
+            l--;
+        },1000);
+        var ys = i;
+        var $s = $("<div id='spmop'><div class=\"text-center jumbotron\"><h2> " + kvis.sporsmal[ys].sporsmal +
+            "</h2><img src=\" " + kvis.sporsmal[ys].imgUrl + "\"  style='width:200;height:200px'><div id='timer'></div> </div></div>");
+        var $alts = $("<div id='nuKjorVi'><div class=\'text-center jumbotron altser\' id='ssss' style='width: 50%; float: left'> " + kvis.sporsmal[ys].svarAlternativ[0].svaralternativ + "</div>" +
+            "<div class=\'text-center jumbotron altser\' id='ssss' style='width: 50%; float:left'> " + kvis.sporsmal[ys].svarAlternativ[1].svaralternativ + "</div>" +
+            "<div class=\'text-center jumbotron altser\' id='ssss' style='width: 50%; float: left'> " + kvis.sporsmal[ys].svarAlternativ[2].svaralternativ + "</div>" +
+            "<div class=\'text-center jumbotron altser\' id='ssss' style='width: 50%; float: left'> " + kvis.sporsmal[ys].svarAlternativ[3].svaralternativ + "</div></div>");
         $("#spmop").replaceWith($s);
-        var $alts = $("<div class=\'text-center jumbotron\' id='ssss' style='width: 50%; float: left'> " + kvis.sporsmal[i].svarAlternativ[0].svaralternativ + "</div>" +
-            "<div class=\'text-center jumbotron\' id='ssss' style='width: 50%; float:right'> " + kvis.sporsmal[i].svarAlternativ[1].svaralternativ + "</div>" +
-            "<div class=\'text-center jumbotron\' id='ssss' style='width: 50%; float: left'> " + kvis.sporsmal[i].svarAlternativ[2].svaralternativ + "</div>" +
-            "<div class=\'text-center jumbotron\' id='ssss' style='width: 50%; float: right'> " + kvis.sporsmal[i].svarAlternativ[3].svaralternativ + "</div>");
-        $alts.click(function () {
-            if (this.innerHTML.trim() == kvis.sporsmal[i].svarAlternativ[kvis.sporsmal[i].riktigSvar - 1].svaralternativ){
-                console.log("BRAPPP" + this.innerHTML);
-                $(this).css("background-color","darkgreen");
-            } else {
-                $(this).css("background-color","red");
-            }
-
-        });
         $("#nuKjorVi").replaceWith($alts);
+    };
 
-    }
+    function kjoyr(inn) {
+        var kvis = getQuiz(inn);
+        var sum = 0;
+        var ys = 0;
+        var i = 0;
+        var duration = 0;
+        function waitQuiz(duration){
+            setTimeout(function(){
+                duration = kvis.sporsmal[i].lengde * 1000;
+                changeQuestion(kvis,i);
+                $(".altser").one("click",function () {
+                    $(this).addClass("clickedOn");
+                    if (($(".clickedOn").text().trim() == kvis.sporsmal[i-1].svarAlternativ[(kvis.sporsmal[i -1].riktigSvar - 1)].svaralternativ.trim())){
+                        $(".clickedOn").css("background-color","green");
+                        sum += kvis.sporsmal[i - 1].score;
+                    } else{
+                        $(".clickedOn").css("background-color","red");
+                    }
+                    $(".altser").unbind();
+                    //setScoreboard(kvis.quizId);
+                    setScoreboard();
+                });
+
+                i++;
+                if(i < kvis.sporsmal.length){
+                    console.log(kvis.sporsmal.length);
+                    console.log(i);
+                    console.log(duration);
+                    waitQuiz(duration);
+                } else {
+                    console.log("SUM " + sum);
+                    $("#nuKjorVi").hide("slow");
+                    $("#spmop").hide("slow");
+                    $("body").append("<div class=\"text-center\"><h2>QUIZ FULLFØRT<br>" + getUname() + ",du fikk " + sum + " poeng</h2></div>");
+                }
+            },duration);
+        }
+        waitQuiz(duration);
+
+    };
+
+
 
     function getAllQuizzes() {
         var allquiz = '';
@@ -77,6 +120,11 @@ $(document).ready(function () {
         });
         return allquiz;
     };
+
+    $("#nuKjorVi").click(function (){
+        $(this).addClass("clickedOn");
+        console.log("INNE I ALTS");
+    });
 
 
     function getQuiz(quizId) {
@@ -127,9 +175,76 @@ $(document).ready(function () {
         return a.quizId - b.quizId;
 
     }
+    function getUname() {
+        return brukernavn;
+    }
+
+    function setUname(newName) {
+        brukernavn = newName;
+    }
+    function getScoreboard(quizId) {
+        var q = '';
+        $.ajax({
+            url: 'rest/scoreboard/' + quizId,
+            async: false,        // ikke optimal, gir advarsel i browser. ad-hoc løsning.
+            type: 'GET',
+            contentType: 'application/json; charset=utf-8',
+            dataType: 'json',
+            success: function (result) {
+                q = result;
+            }
+        });
+        return q;
+    };
+
+    function setScoreboard() {
+        $.ajax({
+            url: 'rest/scoreboard/',
+            type: 'post',
+            contentType: "application/json; charset=utf-8",
+            data: JSON.stringify({
+                qid: 1, spiller: {navn: "KRistian",score:45}
+            }),
+            dataType: '',
+            success: function (result) {
+                console.log("POST SUCCESS");
+            },
+            statusCode: {
+                404: function () {
+                    console.log("404 - Not Found");
+                }
+
+            },
+            complete: function () {
+                console.log("POST COMPLETE");
+            }
+        });
+
+    }
+    function setNewScoreboard(id,scoreboard) {
+        $.ajax({
+            url: 'rest/scoreboard/' + id,
+            type: 'post',
+            contentType: "application/json; charset=utf-8",
+            data: JSON.stringify(scoreboard),
+            dataType: 'json',
+            success: function (result) {
+                console.log("POST SUCCESS");
+            },
+            statusCode: {
+                404: function () {
+                    console.log("404 - Not Found");
+                }
+            },
+            complete: function () {
+                console.log("POST COMPLETE");
+            }
+        });
+
+    };
+
 
 
 
 });
-
 
