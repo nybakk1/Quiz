@@ -10,15 +10,11 @@
     <link href="css/bootstrap.css" rel="stylesheet">
     <link href="css/index.css" rel="stylesheet">
 
-    <script src="js/quiz.js" type="text/javascript"></script>
+    <script src="js/addquiz.js" type="text/javascript"></script>
 
 
 </head>
 <body>
-<script type="text/javascript">
-    $.getScript("js/quiz.js");
-</script>
-
 
 
 <nav class="navbar navbar-inverse">
@@ -27,7 +23,7 @@
             <a class="navbar-brand" href="#">Quiz</a>
         </div>
         <ul class="nav navbar-nav">
-            <li><a href="index.html">Home</a></li>
+            <li><a href="index.html">Hjem</a></li>
             <li class="active"><a href="addquiz.html">Legg til Quiz</a></li>
             <li><a href="scoreboard.html">Scoreboard</a></li>
         </ul>
@@ -49,52 +45,19 @@
         <div class="form-group">
             <label for="navn">Navn på Quiz:</label>
             <input type="text" class="form-control" id="navn">
+            <label for="startdato">Start Dato</label>
+            <input type="datetime-local" class="form-control" id="startdato">
         </div>
         <input type="button" id="tap" value="Neste"></input>
     </div>
 
-    <div id="second" style="display: none">
-        <div class="form-group">
-            <label for="startdato">Start Dato</label>
-            <input type="startdato" class="form-control" id="startdato" placeholder="dd/mm/yy">
-        </div>
-        <div class="form-group">
-            <label for="avsluttdato">Avslutnings dato</label>
-            <input type="avsluttdato" class="form-control" id="avsluttdato" placeholder="dd/mm/yy">
-        </div>
-        <input type="button" id="quizlength" value="Neste"></input>
-    </div>
 
-    <div id="third" style="display: none">
-        <div class="form-group">
-            <label for="sporsmal">Spørsmål</label>
-            <input type="sporsmal" class="form-control" id="sporsmal">
+    <div id="second" style="display: none">
+
+            <div id="moreQuestions"></div>
         </div>
-        <div class="form-group">
-            <label for="alt1">Alternativ 1</label>
-            <input type="alt1" class="form-control" id="alt1">
-        </div>
-        <div class="form-group">
-            <label for="alt2">Alternativ 2</label>
-            <input type="alt2" class="form-control" id="alt2">
-        </div>
-        <div class="form-group">
-            <label for="riktig">Riktig alternativ:</label>
-            <input type="riktig" class="form-control" id="riktig">
-        </div>
-        <div class="form-group">
-            <label for="lengde">Lengde på spørsmål:</label>
-            <input type="lengde" class="form-control" id="lengde">
-        </div>
-        <div class="form-group">
-            <label for="score">Score for riktig svar:</label>
-            <input type="score" class="form-control" id="score">
-        </div>
-        <div class="form-group">
-            <label for="imgUrl">Bilde:</label>
-            <input type="imgUrl" class="form-control" id="imgUrl">
-        </div>
-        <input type="button" id="question" value="Neste"></input>
+        <input type="button" id="addmore" style="display: none" value="Legg til spørsmål"></input>
+        <input type="button" id="question" style="display: none" value="Fullfør"></input>
 
     </div>
 </form>

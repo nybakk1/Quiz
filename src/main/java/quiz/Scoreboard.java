@@ -5,7 +5,7 @@ package quiz;
 public class Scoreboard {
 
     private int qid;
-    private Score score;
+    private Spiller[] spiller;
 
     public int getQid() {
         return qid;
@@ -15,11 +15,11 @@ public class Scoreboard {
         this.qid = qid;
     }
 
-    public Score getScore() {
-        return score;
+    public Spiller[] getSpiller() {
+        return spiller;
     }
 
-    public void setScore(Score score) {
-        this.score = score;
+    public void setSpiller(Spiller[] spiller) {
+        this.spiller = spiller;
     }
 }

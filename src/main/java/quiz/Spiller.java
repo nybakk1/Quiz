@@ -1,6 +1,6 @@
 package quiz;
 
-public class Score {
+public class Spiller {
     private String navn;
     private int score;
 

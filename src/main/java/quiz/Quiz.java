@@ -9,7 +9,7 @@ public class Quiz implements Serializable {
     private Sporsmal[] sporsmal;
     private Date opprettet;
     private Date start;
-    private Date avsluttes;
+    //private Date avsluttes;
 
     public Quiz(){}
 
@@ -47,13 +47,13 @@ public class Quiz implements Serializable {
         this.start = start;
     }
 
-
+    /*
     public Date getAvsluttes() {
         return avsluttes;
     }
     public void setAvsluttes(Date avsluttes) {
         this.avsluttes = avsluttes;
     }
-
+    */
 
 }

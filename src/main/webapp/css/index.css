@@ -10,6 +10,7 @@
 }
 .jumbotron {
     margin: 0px;
+
 }
 .navbar {
     margin: 0px;
@@ -25,3 +26,40 @@ body {
 .overskrift {
     color: white;
 }
+#quiz_add {
+    border-radius: 15px;
+}
+#quiz_add:hover {
+    background-color: white;
+    cursor: pointer;
+}
+
+#startQuiz:hover {
+    background-color: darkgoldenrod;
+    cursor: pointer;
+}
+
+#ingenQuiz {
+    background-color: #843534;
+}
+
+#alternativer {
+    background-color: darkgoldenrod;
+    cursor: pointer;
+}
+
+#ssss:hover {
+    background-color: white;
+    cursor: pointer;
+}
+.kanten {
+    border-radius: 15px;
+}
+
+#third,#second,#first,#addmore {
+    margin-bottom: 20px;
+    margin-top: 20px;
+
+}
+
+
